@@ -121,6 +121,8 @@ Remove the yellow debug toggle. Track the modal dialog and frame-on-select TODOs
 
 Both are feature gaps, not cleanup items. Track them as integration work when the renderer/physics/audio connection layer is being built.
 
+Note: world settings will eventually be component-based through special `WorldComponent` types, following the same metadata-driven path as scene object properties. The current `world_settings_data.rs` data model should be treated as transitional — the canonical home for these settings will be `WorldComponent` instances in the scene database.
+
 **Priority** — Medium (integration-driven)
 
 ---
